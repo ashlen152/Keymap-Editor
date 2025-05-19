@@ -107,10 +107,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1        &kp N2        &kp N3         &kp N4                 &kp N5       &trans   &trans  &trans    &trans  &trans  &trans
-&kp RET    &kp N6        &kp N7        &kp N8         &kp N9                 &kp N0       &trans   &trans  &trans    &trans  &trans  &trans
-&kp EQUAL  &kp LS(LPAR)  &kp LS(PLUS)  &kp LS(UNDER)  &kp LS(RPAR)           &kp DOT      &trans   &trans  &trans    &trans  &trans  &trans
-                                       &kp LGUI       &hml DELETE BACKSPACE  &kp SPACE    &kp RET  &trans  &kp RALT
+&kp TAB    &kp N1    &kp N2    &kp N3     &kp N4                 &kp N5       &trans   &trans         &trans           &trans         &trans             &trans
+&kp RET    &kp N6    &kp N7    &kp N8     &kp N9                 &kp N0       &trans   &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &trans
+&kp EQUAL  &kp LPAR  &kp PLUS  &kp UNDER  &kp RPAR               &kp DOT      &trans   &trans         &trans           &trans         &trans             &trans
+                               &kp LGUI   &hml DELETE BACKSPACE  &kp SPACE    &kp RET  &trans         &kp RALT
             >;
         };
 
