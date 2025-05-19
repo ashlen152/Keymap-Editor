@@ -84,7 +84,7 @@
             >;
         };
 
-        lower_layer {
+        symbols_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -92,10 +92,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7    &kp N8    &kp N9     &kp N0            &kp BSPC
-&none      &none   &none   &none     &none   &none        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp LEFT_BRACKET  &kt RIGHT_BRACKET
-&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans    &trans    &trans    &trans     &trans            &trans
-                           &kp LGUI  &trans  &kp SPACE    &kp RET   &trans    &kp RALT
+&trans  &trans  &trans  &trans  &trans  &trans    &kp AMPS    &kp LESS_THAN         &kp EQUAL     &kp GREATER_THAN       &kp PIPE   &kp HASH
+&trans  &none   &none   &none   &none   &none     &kp LBKT    &kp LEFT_PARENTHESIS  &kp COLON     &kp RIGHT_PARENTHESIS  &kp RBKT   &kp PERCENT
+&trans  &trans  &trans  &trans  &trans  &trans    &kp DOLLAR  &kp LEFT_BRACE        &kp ASTERISK  &kp RIGHT_BRACE        &kp CARET  &kp EXCLAMATION
+                        &trans  &trans  &trans    &kp LS(AT)  &kp SPACE             &kp RALT
             >;
         };
 
