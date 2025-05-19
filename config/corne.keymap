@@ -99,7 +99,7 @@
             >;
         };
 
-        raise_layer {
+        number_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -107,7 +107,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1        &kp N2        &kp N3         &kp N4        &kp N5       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp TAB    &kp N1        &kp N2        &kp N3         &kp N4        &kp N5       &trans     &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &kp RET    &kp N6        &kp N7        &kp N8         &kp N9        &kp N0       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp EQUAL  &kp LS(LPAR)  &kp LS(PLUS)  &kp LS(UNDER)  &kp LS(RPAR)  &kp DOT      &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                        &kp LGUI       &trans        &kp SPACE    &kp RET    &trans     &kp RALT
