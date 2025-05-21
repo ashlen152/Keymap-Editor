@@ -66,6 +66,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <3 2>;
+        };
+
+        caps-word {
+            bindings = <&caps_word>;
+            key-positions = <17 18>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
