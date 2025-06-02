@@ -130,10 +130,10 @@
 
         BOTH {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bt BT_CLR_ALL
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 0
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &bt BT_SEL 1
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans            &kp K_PREVIOUS     &kp K_NEXT       &trans        &trans  &trans  &trans  &trans      &trans  &bt BT_CLR_ALL
+&trans  &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE    &trans  &trans  &trans  &kp K_LOCK  &trans  &bt BT_SEL 0
+&trans  &trans  &trans            &trans             &trans           &trans        &trans  &trans  &trans  &trans      &trans  &bt BT_SEL 1
+                                  &trans             &trans           &trans        &trans  &trans  &trans
             >;
         };
 
