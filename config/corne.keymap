@@ -78,6 +78,12 @@
             bindings = <&caps_word>;
             key-positions = <17 18>;
         };
+
+        game {
+            bindings = <&to 6>;
+            key-positions = <36 41>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -152,6 +158,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F11  &kp F12  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans   &trans
+            >;
+        };
+
+        game {
+            bindings = <
+&trans  &kp Q  &kp W  &kp E  &kp R   &kp T     &kp Y   &kp U   &kp I      &kp O    &kp P     &trans
+&trans  &kp A  &kp S  &kp D  &kp F   &kp G     &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X  &kp C  &kp V   &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+                      &to 0  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
