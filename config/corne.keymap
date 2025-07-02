@@ -115,7 +115,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &kp AMPS    &kp LESS_THAN         &kp EQUAL     &kp GREATER_THAN       &kp PIPE   &kp HASH
 &trans  &none   &none   &none   &none   &none     &kp LBKT    &kp LEFT_PARENTHESIS  &kp COLON     &kp RIGHT_PARENTHESIS  &kp RBKT   &kp PERCENT
 &trans  &trans  &trans  &trans  &trans  &trans    &kp DOLLAR  &kp LEFT_BRACE        &kp ASTERISK  &kp RIGHT_BRACE        &kp CARET  &kp EXCLAMATION
-                        &trans  &trans  &trans    &kp LS(AT)  &kp SPACE             &kp RALT
+                        &trans  &trans  &trans    &kp LS(AT)  &mo 2                 &kp RALT
             >;
         };
 
@@ -127,10 +127,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1    &kp N2    &kp N3        &kp N4                 &kp N5       &trans    &trans    &trans        &trans     &trans  &trans
-&kp RET    &kp N6    &kp N7    &kp N8        &kp N9                 &kp N0       &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&kp EQUAL  &kp LPAR  &kp PLUS  &kp UNDER     &kp RPAR               &kp DOT      &trans    &trans    &trans        &trans     &trans  &trans
-                               &kp K_COFFEE  &hml DELETE BACKSPACE  &kp SPACE    &kp RET   &trans    &kp RALT
+&kp TAB    &kp N1    &kp N2    &kp N3        &kp N4    &kp N5       &trans    &trans    &trans        &trans     &trans  &trans
+&kp RET    &kp N6    &kp N7    &kp N8        &kp N9    &kp N0       &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&kp EQUAL  &kp LPAR  &kp PLUS  &kp UNDER     &kp RPAR  &kp DOT      &trans    &trans    &trans        &trans     &trans  &trans
+                               &kp K_COFFEE  &mo 1     &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
 
